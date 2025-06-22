@@ -38,12 +38,12 @@ function getComputerChoice() {
     }
     }
 
-    const humanSelection = getHumanChoice();
+    /*const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
  const result=playRound(humanSelection, computerSelection);
 
 console.log(result);
-console.log(`Score: You ${humanScore} - ${computerScore} Computer`);
+console.log(`Score: You ${humanScore} - ${computerScore} Computer`);*/
 
 function playGame() {
 
@@ -58,11 +58,11 @@ function playGame() {
   }
 
 
-console.log("\nFinal Score:");
+console.log("Final Score:");
 if (humanScore > computerScore) {
-    console.log("Congratulations! You win the game!");
+    console.log("Game won");
   } else if (humanScore < computerScore) {
-    console.log("Sorry, you lose the game.");
+    console.log("Game lost.");
   } else {
     console.log("It's a draw!");
   }
